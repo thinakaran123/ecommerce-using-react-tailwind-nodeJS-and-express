@@ -8,7 +8,6 @@ This is an e-commerce site built using **React**, **Tailwind CSS**, **Node.js**,
   - Built with **React** for a dynamic and responsive user experience.
   - Styled using **Tailwind CSS** for easy and customizable styling.
   - Includes interactive toast notifications for feedback using **react-toastify**.
-  - User authentication with JWT (JSON Web Token).
   - Product listing, cart management, and checkout functionality.
   
 - **Backend**:
@@ -75,7 +74,6 @@ This is an e-commerce site built using **React**, **Tailwind CSS**, **Node.js**,
 
    ```env
    MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
    ```
 
 4. Start the backend server:
@@ -84,7 +82,7 @@ This is an e-commerce site built using **React**, **Tailwind CSS**, **Node.js**,
    npm start
    ```
 
-   The backend should now be running at `http://localhost:5000`.
+   The backend should now be running at `http://localhost:3000`.
 
 ## Usage
 
